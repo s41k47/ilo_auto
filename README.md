@@ -1,6 +1,6 @@
 # ilo_auto
 
-ilo_auto is a Python tool for generating hardware health check reports from ILOM (Integrated Lights-Out Manager). It provides an easy-to-use interface for retrieving system information and generating reports for various hardware nodes. IP of the nodes would be collected from ilo_inventory file. I have shared an example inventory file. Pleae place it under C:\Users\{your_user_name}\
+ilo_auto is a Python tool for generating hardware health check reports from ILOM (Integrated Lights-Out Manager). It provides an easy-to-use interface for retrieving system information and generating reports for various hardware nodes. IP of the nodes would be collected from ilo_inventory file. I have shared an example inventory file. Pleae place it under `C:\Users\{your_user_name}\`
 
 ## Features
 
@@ -19,19 +19,19 @@ sudo dnf install -y git python3 python3-pip
 
 2. Clone and install using pip
 ```bash
-cd ~/Downloads
+cd `~/Downloads`
 git clone https://github.com/s41k47/ilo_auto.git
-cd cd ~/Downloads/ilo_auto
+cd cd `~/Downloads/ilo_auto`
 pip install .
 ```
 
 # On Windows
 1. Download and install python from https://www.python.org/ ensuring that you check "Add Python to PATH" during installation. (If not installed already)
 2. Download Git for windows https://git-scm.com/downloads/win
-3. Create tmp directory under C:\Users\{your_user_name}\Desktop\
+3. Create tmp directory under `C:\Users\{your_user_name}\Desktop\`
 4. Open Powershell
 ```powershell
-cd C:\Users\{your_user_name}\Downloads\
+cd `C:\Users\{your_user_name}\Downloads\`
 git clone https://github.com/s41k47/ilo_auto.git
 cd ilo_auto
 pip install -e .
