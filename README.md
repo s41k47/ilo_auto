@@ -19,9 +19,9 @@ sudo dnf install -y git python3 python3-pip
 
 2. Clone and install using pip
 ```bash
-cd `~/Downloads`
+cd ~/Downloads
 git clone https://github.com/s41k47/ilo_auto.git
-cd cd `~/Downloads/ilo_auto`
+cd cd ~/Downloads/ilo_auto
 pip install .
 ```
 
@@ -31,7 +31,7 @@ pip install .
 3. Create tmp directory under `C:\Users\{your_user_name}\Desktop\`
 4. Open Powershell
 ```powershell
-cd `C:\Users\{your_user_name}\Downloads\`
+cd C:\Users\{your_user_name}\Downloads\
 git clone https://github.com/s41k47/ilo_auto.git
 cd ilo_auto
 pip install -e .
