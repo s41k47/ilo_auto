@@ -59,8 +59,3 @@ hcilo WEB
 ```bash
 hcilo WEB DB
 ```
-
-# Troubleshooting on Windows
-Windows Security may create trouble. To solve this
-- Create exclusion of `C:\Users\{your_user_name}\AppData\Local\Programs\Python\Python312\Scripts` (Python312 may vary depending on your python version)
-- Then try again
