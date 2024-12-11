@@ -42,17 +42,15 @@ def main():
 
     if args.all:
         remove_older_files()
-        healthcheck(invent_dict)
-        
+        healthcheck(invent_dict)  # Perform health checks for all keys
         print(completion_text.center(terminal_width))
     elif args.key_name:
         remove_older_files()
         for key_name in args.key_name:
-            healthcheck(invent_dict, key_name)
-        print(completion_text.center(terminal_width))
+            healthcheck(invent_dict, key_name)  # Perform health checks for specified keys
+            print(completion_text.center(terminal_width))
     else:
-        print("Please specify either --all or one or specify node types.")
-
+        print("Please specify either --all or one or more node types.")
 
 def load_dict_from_file(invent_file):
     '''Load inventory from file into a dictionary.'''
