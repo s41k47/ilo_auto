@@ -10,22 +10,6 @@ ilo_auto is a Python tool for generating hardware health check reports from ILOM
 
 ## Installation
 
-# On Linux
-1. Make sure you have python3, python3-pip and git installed
-```bash
-sudo dnf update
-sudo dnf install -y git python3 python3-pip
-```
-
-2. Clone and install using pip
-```bash
-cd ~/Downloads
-git clone https://github.com/s41k47/ilo_auto.git
-cd cd ~/Downloads/ilo_auto
-pip install .
-```
-
-# On Windows
 1. Download and install python from https://www.python.org/ ensuring that you check "Add Python to PATH" during installation. (If not installed already)
 2. Download Git for windows https://git-scm.com/downloads/win
 3. Create tmp directory under `C:\Users\{your_user_name}\Desktop\`
@@ -60,7 +44,7 @@ hcilo WEB
 hcilo WEB DB
 ```
 
-# Troubleshooting on Windows
+# Troubleshooting
 Windows Security may create trouble. To solve this
 - Create exclusion of `C:\Users\{your_user_name}\AppData\Local\Programs\Python\Python312\Scripts` (Python312 may vary depending on your python version)
 - Then try again
