@@ -34,7 +34,7 @@ def main():
 
     parser = argparse.ArgumentParser(prog='hcilo', description='Performs health check of ILO')
     parser.add_argument('--all', action='store_true', help='Perform health checks for all keys')
-    parser.add_argument('key_name', nargs='*', type=str choices=node_types, help="The specific key name to look for")
+    parser.add_argument('key_name', nargs='*', type=str, choices=node_types, help="The specific key name to look for")
     args = parser.parse_args()
 
     terminal_width = os.get_terminal_size().columns
